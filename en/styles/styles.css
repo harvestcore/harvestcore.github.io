@@ -320,7 +320,7 @@ p {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 15px;
-  color: #c5c5c5;
+  color: #e2e2e2;
   display: block;
 }
 
@@ -341,31 +341,27 @@ p {
   .sidenav a {font-size: 15px;}
 }
 
-.navbar {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
+
+
+/************* habilidades ***********/
+* {box-sizing: border-box}
+
+.container {
+  width: 35%;
+  background-color: #ddd;
+  margin: 0 auto;
 }
 
-.navbar a {
-  float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: rgb(0, 0, 0);
 }
 
-.navbar a:hover {
-  background-color: #4CAF50;
-}
-
-.active {
-  background-color: #4CAF50;
-}
-
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
-}
+.cpp {width: 90%; background-color: #6666ff;}
+.c {width: 85%; background-color: #00a500;}
+.java {width: 80%; background-color: #ff3300;}
+.python {width: 65%; background-color: #808080;}
+.php {width: 50%; background-color: #ff61d8;}
+.html {width: 50%; background-color: #ffff4d;}
+.css {width: 50%; background-color: #ff8800;}
