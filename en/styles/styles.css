@@ -115,9 +115,10 @@ body {
     background-color: #4C5AAF;
     border: 1px solid white;
     color: white;
+    width: 90%;
 }
 
-.rlink {
+#repo .rlink {
     text-align: right;
     padding-right: 10px;
     width: 10%;
